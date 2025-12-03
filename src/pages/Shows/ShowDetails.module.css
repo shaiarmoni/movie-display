@@ -1,0 +1,41 @@
+.movieCard {
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  padding: 25px;
+  margin: 30px auto;
+  max-width: 450px;
+  background-color: #f8faf9;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #444;
+}
+
+.title {
+  color: #2c3e50;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.poster {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.label {
+  font-weight: bold;
+  font-size: large;
+  color: #032c55;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.movieCard p {
+  margin: 0;
+  line-height: 1.4;
+}
